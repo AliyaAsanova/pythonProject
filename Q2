@@ -1,0 +1,15 @@
+# laptop.py
+
+# Create a dictionary
+laptop = {"brand": "dell", "model": "alienware", "year": 2010}
+
+# 1. Print the brand value of the dictionary
+print("Brand:", laptop["brand"])
+
+# 2. Add new information (key: value) by using a boolean data type as value and home as key
+laptop["home"] = True
+print("Laptop information with 'home':", laptop)
+
+# 3. Modify the value of the key "year" to 2019
+laptop["year"] = 2019
+print("Modified laptop information:", laptop)
